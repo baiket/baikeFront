@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="dnaStore">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>白客堂</title>
+    <meta name="description" content="白客堂--给岁月机会，上人生课堂">
+    <meta name="keywords" content="岁月，烁说，客堂">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="resource/css/lib/bootstrap.min.css"/>
+    <link rel="stylesheet" href="resource/css/lib/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="resource/css/common/common.css"/>
+    <link rel="stylesheet" href="resource/css/lib/weui.css"/>
+    <!--css-->
+    <link rel="stylesheet" href="resource/css/index.css"/>
+    <link rel="stylesheet" href="resource/css/home.css"/>
+    <link rel="stylesheet" href="resource/css/lib/example.css" />
+    
+    <link rel="stylesheet" href="resource/css/lib/swiper.min.css"/>
+
+</head>
+<body>
+   <!--
+   	作者：五人小队
+   	时间：2016-11-29 zhanghan huangshuo chenzhangsheng duanhuan
+   	描述：主要类容界面，ui-view 加载子视图，统一加载footer菜单
+   -->
+<div  class="container" style="padding-right: 0px;padding-left: 0px;">
+	<div class="weui-tab__panel" >
+		<div  ui-view></div>
+    </div>
+</div>
+</body>
+
+<!-- jquery.js angular.js-->
+<script src="resource/lib/jquery.min.js"></script>
+<script src="resource/lib/bootstrap.min.js"></script>
+<!--
+<script src="resource/lib/weui.min.js"></script>
+-->
+<script src="resource/lib/angular.js"></script>
+<!-- ui-router local-storage -->
+<script src="resource/lib/angular-ui-router.min.js"></script>
+<script src="resource/lib/swx-local-storage.js"></script>
+<script src="resource/lib/angular-cookie.js"></script>
+
+<script src="resource/lib/swiper.min.js"></script>
+<script src="resource/lib/angular-swiper.js"></script>
+
+
+<!-- app.js -->
+<script src="js/app.js"></script>
+<script src="js/module/home.js"></script>
+
+<script src="js/service/httpService.js"></script>
+<script src="js/service/util.service.js"></script>
+<script src="js/service/loginService.js"></script>
+
+
+<script type="text/javascript">
+    $(function(){
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

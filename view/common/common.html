@@ -1,0 +1,23 @@
+<div id="loadingToast" ng-if="loadingToastHide" >
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <!--<p class="weui-toast__content">数据加载中</p>-->
+    </div>
+</div>
+
+ <div id="toast" ng-if="isShowToast">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+        <p class="weui-toast__content">已完成</p>
+    </div>
+</div>
+
+ <div id="toast" ng-if="isShowWarnToast">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+    	<i class="weui-icon-info weui-icon_msg"></i>
+        <p class="weui-toast__content">参数不能为空</p>
+    </div>
+</div>

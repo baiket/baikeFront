@@ -1,0 +1,43 @@
+{
+ "page":{
+ 		"id":1,
+ 		"page_img":[
+                	{"url": "./resource/img/1.jpg","link":"#"},
+                    {"url": "./resource/img/2.jpg","link":"#"},
+                    {"url": "./resource/img/3.jpg","link":"#"}
+			       ],
+ 		"page_content":
+ 			[
+ 				{
+ 				"id":1,
+ 				"name":"吃喝",
+ 				"map_list":[{
+ 						"id":1,
+ 						"titie":"纸牌屋的前生今世",
+ 						"sub_title":"填报肚子，看风云际会",
+ 						"detail_url":"http://mp.weixin.qq.com/s/k4l_JLwxE2N72wU150EJig"
+ 						}]
+ 				},
+ 				{
+ 				"id":2,
+ 				"name":"玩乐",
+ 				"map_list":[{
+ 						"id":1,
+ 						"titie":"纸牌屋的前生今世",
+ 						"sub_title":"填报肚子，看风云际会",
+ 						"detail_url":"http://mp.weixin.qq.com/s/k4l_JLwxE2N72wU150EJig"
+ 						}]
+ 				},
+ 				{
+ 				"id":2,
+ 				"name":"行游",
+ 				"map_list":[{
+ 						"id":1,
+ 						"titie":"纸牌屋的前生今世",
+ 						"sub_title":"填报肚子，看风云际会",
+ 						"detail_url":"http://mp.weixin.qq.com/s/k4l_JLwxE2N72wU150EJig"
+ 						}]
+ 				}
+ 			]
+  		}
+}
