@@ -1,7 +1,3 @@
-/**
- * home page
- */
-//angular.module('home', ['ui.router'])
 var homeModule = angular.module('home', ['ui.router','ksSwiper']);
 homeModule.config(['$stateProvider',
     function ($stateProvider) {
@@ -19,7 +15,6 @@ homeModule.config(['$stateProvider',
                 },
                  controller: function ($scope,$stateParams,datas,$rootScope,util) {
                  	console.log(datas)
-                    //以下是幻灯片展示部分，可以不看
                     $scope.sliderShow=true
                     $scope.images = datas.page_img
                  }
